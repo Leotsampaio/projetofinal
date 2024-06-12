@@ -1,0 +1,14 @@
+.blueText {
+    color: rgb(58, 58, 197);
+}
+
+.greyText {
+    color: grey;
+}
+
+.tituloFunc {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}

@@ -1,0 +1,61 @@
+.homeContainer {
+    height: 55vh;
+    background-color: rgb(58, 58, 197);
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.homeText {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    color: white;
+    font-size: 30px;
+    margin-left: 10rem;
+    text-align: left;
+    /* Adiciona contraste ao texto */
+}
+
+.homeText h1,
+.homeText h2,
+.homeText p {
+    margin: 0;
+
+}
+
+.homeText h1 {
+    margin-bottom: 25px;
+    /* Ajuste o espaçamento conforme necessário */
+}
+
+.homeText h2 {
+    margin-bottom: 50px;
+    /* Ajuste o espaçamento conforme necessário */
+}
+
+.homeText>p {
+    font-size: 15px;
+    width: 25rem;
+
+}
+
+.imgHome {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    padding: 20px;
+}
+
+.imgHome>img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    /* Ajusta a imagem para cobrir o espaço sem distorcer */
+}
