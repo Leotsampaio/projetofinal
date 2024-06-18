@@ -1,5 +1,4 @@
 import styles from "~/styles/home.module.css";
-
 export function Home() {
     return (
         <div className={styles.homeContainer}>
@@ -9,7 +8,7 @@ export function Home() {
                 <p>Na easyStock, oferecemos um sistema de controle de estoque eficiente que simplifica a gestão dos seus produtos.</p>
             </div>
             <div className={styles.imgHome}>
-                <img src="/images/imgHomedef.png" alt="Imagem Home" />
+                <img src="/images/imgHomedef.png" alt="img" />
             </div>
         </div>
     );

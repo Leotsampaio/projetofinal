@@ -4,7 +4,7 @@ export function Nav() {
     return (
         <nav className={styles.navBar}>
             <div className={styles.navLogo}>
-                <img src="/images/logopf-removebg-preview.png" alt="imglogo" />
+                <img src="/images/logopf-removebg-preview.png" alt="" />
             </div>
             <div className={styles.navRight}>
                 <ul className={styles.navLinks}>
