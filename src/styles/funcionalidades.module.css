@@ -1,14 +1,17 @@
-.blueText {
-    color: rgb(58, 58, 197);
+.swiper {
+    margin-top: 5rem;
+    margin-bottom: 15rem;
+    width: 80rem;
+
 }
 
-.greyText {
-    color: grey;
+.slideFunc p {
+    font-size: 100px;
 }
 
-.tituloFunc {
+.swiper-slide {
     display: flex;
-    align-items: center;
     justify-content: center;
-    margin-top: 2rem;
+    padding: 100px;
+
 }
