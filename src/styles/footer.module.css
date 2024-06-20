@@ -1,15 +1,18 @@
 .footer{
     height: 40vh;
-    background-color: rgb(243, 241, 241);
+    background-color:white;
     margin-top: 7rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 20px;
+    backdrop-filter: blur(30px);
+    box-shadow: 0px 0px 30px rgba(227, 228, 237, 0.37);
+    border: 2px solid rgba(255, 255, 255, 0.18);
 
 }
 .links > li > a:hover {
-    color: rgb(43, 43, 183);
+    color: rgb(58, 58, 197);
 
 }
 
@@ -19,6 +22,20 @@
     margin-bottom: 2px;
     margin-left: 10px;
 
+}
+
+.links > li > img{
+    max-width:28px;
+    max-height:18px;
+    width: auto;
+    height: auto;
+    display: flex;
+    margin-left: 5px;
+}
+
+.links > li {
+    display: flex;
+    align-items: center;
 }
 
 
@@ -31,7 +48,7 @@
 .links >li >strong{
     display: flex;
     margin-bottom: 20px;
-    color: rgba(43, 43, 43, 0.788);
+    color: rgb(0, 0, 0);
     font-size: 25px;
 }
 .links{
@@ -40,12 +57,12 @@
     padding: 0;
     list-style-type: none;
     font-size: 20px;
-    color: rgb(0, 0, 0);
+    color: rgb(58, 58, 197);
 
 }
 
 .easyStockFooter{
-    color: rgba(43, 43, 43, 0.788);
+    color: rgb(58, 58, 197);
     font-size: 25px;
     margin: 50px;
 }
