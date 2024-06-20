@@ -1,0 +1,51 @@
+.footer{
+    height: 40vh;
+    background-color: rgb(243, 241, 241);
+    margin-top: 7rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+.links > li > a:hover {
+    color: rgb(43, 43, 183);
+
+}
+
+.links > li > a{
+    color: rgb(0, 0, 0);
+    display: flex;
+    margin-bottom: 2px;
+    margin-left: 10px;
+
+}
+
+
+.sobre{
+    margin-top: 10px;
+    display: flex;
+    align-items: starts;
+}
+
+.links >li >strong{
+    display: flex;
+    margin-bottom: 20px;
+    color: rgba(43, 43, 43, 0.788);
+    font-size: 25px;
+}
+.links{
+    gap: 3rem;
+    margin: 55px;
+    padding: 0;
+    list-style-type: none;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+
+}
+
+.easyStockFooter{
+    color: rgba(43, 43, 43, 0.788);
+    font-size: 25px;
+    margin: 50px;
+}

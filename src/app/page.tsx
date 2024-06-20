@@ -2,6 +2,7 @@
 import React from "react";
 import { Nav } from "./_components/nav"
 import { Home } from './_components/home';
+import { Footer } from "./_components/footer";
 import { Slider, SliderProps, Slide } from './_components/slider'
 import styles from '~/styles/funcionalidades.module.css'
 export default function Homepage() {
@@ -36,6 +37,9 @@ export default function Homepage() {
           </Slide>
         ))}
       </Slider>
+      <footer>
+          <Footer />
+      </footer>
     </body>
   );
 }
