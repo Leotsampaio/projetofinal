@@ -20,7 +20,7 @@
     color: rgb(0, 0, 0);
     display: flex;
     margin-bottom: 2px;
-    margin-left: 10px;
+    margin-left: 2px;
 
 }
 
@@ -57,7 +57,7 @@
     padding: 0;
     list-style-type: none;
     font-size: 20px;
-    color: rgb(58, 58, 197);
+    color: rgb(0, 0, 0);
 
 }
 
