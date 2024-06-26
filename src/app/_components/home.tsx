@@ -1,7 +1,7 @@
 import styles from "~/styles/home.module.css";
 export function Home() {
     return (
-        <div className={styles.homeContainer}>
+        <div className={styles.homeContainer} id="inicio">
             <div className={styles.homeText}>
                 <h1>easyStock</h1>
                 <h2>O sistema que simplifica o seu estoque.</h2>
